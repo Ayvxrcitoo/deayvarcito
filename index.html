@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Ayvar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Para Liz tilina.</strong>
+                        <p>
+                            Hola Liz. Te escribo esta pequeña carta digital porque te lo prometí y quería que no fueras espectadora. Disfruté mucho salir contigo, la pasé increíble. Me hiciste olvidar todo mi pesar, gracias por ser tan linda conmigo. Aprecio mucho que vinieras a verme, aunque quizás no querías, jaja. Realmente me divertí mucho y espero que podamos repetirlo pronto. Bueno, realmente me encantaría que fuera mañana, pero en fin, espero que te guste. Te mando un beso jaja. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
